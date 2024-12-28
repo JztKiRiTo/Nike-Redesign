@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike - Redesign</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="nike.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <span class="logo-name">NIKE</span>
+            <img src="nike-logo.png" alt="Nike Logo" class="logo" width="80">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">New & Featured</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </nav>
+        <!-- <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div> -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button class="search-button">
+                <!-- Magnifying Glass Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#000">
+                    <path d="M10 2a8 8 0 105.29 14.71l4.3 4.3a1 1 0 001.42-1.42l-4.3-4.3A8 8 0 0010 2zm0 2a6 6 0 110 12A6 6 0 0110 4z" />
+                </svg>
+            </button>
+        </div>
+    </header>
+    <div class="main-content">
+    <div class="hero block">
+        <div class="hero-content">
+            <h1>Unleash Your Potential</h1>
+            <p>Shop the latest collection of Nike gear and step into the future of sportswear.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="about-nike">
+            <div class="about-content">
+                <h2>About Nike</h2>
+                <p>Nike inspires athletes worldwide with innovative footwear, apparel, and equipment. 
+                    Our mission is to bring inspiration and innovation to every athlete in the world. 
+                    If you have a body, you are an athlete.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="shoe-banner1 block">
+        <img onclick="window.location.href='#'" src="shoe-bg1.jpg" id="shoebg1" width="1280"/>
+        <p class="shoe-banner-text1" id="txt1">NIKE EPIC - REACT FLYKNIT</p>
+        <p class="shoe-banner-text1" id="txt2">Enjoy up to 50% OFF on all models for a limited time. Grab your pair and redefine your performance and style today.</p>
+    </div>
+
+    <div class="three-columns block">
+        <div class="column"><img src="image1.jpg" alt="Image 1"><p>Sportswear ></p></div>
+        <div class="column"><img src="image2.jpg" alt="Image 2"><p>The Air Jordan ></p></div>
+        <div class="column"><img src="image3.jpg" alt="Image 3"><p>High-Top Sneakers ></p></div>
+    </div>
+    
+
+    <div class="shoe-banner2 block">
+        <img onclick="window.location.href='#'" src="shoe-bg2.jpg" id="shoebg2" width="1481"/>
+        <p class="shoe-banner-text2" id="txt1">IT'S GOTTA BE THE REMIX</p>
+        <p class="shoe-banner-text2" id="txt2">Step into the future of comfort and style - Unleash the Beast!</p>
+        <button id="shop">Shop</button>
+    </div>
+
+    <!-- Product Showcase -->
+    <div class="products block">
+        <h2 id="featured-txt">Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="shoe1.jpg" alt="LeBron XXII 'Crown Jewel' EP">
+                <h3>LeBron XXII 'Crown Jewel' EP</h3>
+                <p style="color: rgb(108, 108, 108); margin-top: -15px;">Basketball Shoes</p>
+                <p>$200</p>
+            </div>
+            <div class="product">
+                <img src="shoe2.jpg" alt="Sabrina 2 'Mirrored' EP">
+                <h3>Sabrina 2 'Mirrored' EP</h3>
+                <p style="color: rgb(108, 108, 108); margin-top: -15px;">Basketball Shoes</p>
+                <p>$140</p>
+            </div>
+            <div class="product">
+                <img src="shoe3.jpg" alt="Ja 2 'Nightmare' EP">
+                <h3>Ja 2 'Nightmare' EP</h3>
+                <p style="color: rgb(108, 108, 108); margin-top: -15px;">Basketball Shoes</p>
+                <p>$150</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Nike, Inc. All Rights Reserved.</p>
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Find A Store</a></li>
+                    <li><a href="#">Become A Member</a></li>
+                    <li><a href="#">Send Us Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Get Help</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Contact Us On Nike.com Inquiries</a></li>
+                    <li><a href="#">Contact Us On All Other Inquiries</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Nike</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Report a Concern</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2024 Nike, Inc. All rights reserved &nbsp; | &nbsp; 
+            <a href="#">Guides</a> &nbsp; | &nbsp; 
+            <a href="#">Terms of Sale</a> &nbsp; | &nbsp; 
+            <a href="#">Terms of Use</a> &nbsp; | &nbsp; 
+            <a href="#">Nike Privacy Policy</a>
+        </div>
+    </footer>
+</body>
+</html>
